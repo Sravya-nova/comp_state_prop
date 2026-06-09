@@ -1,4 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react'
+
+
+
+
 
 // ==========================================
 // 1. COMPONENT (Child)
@@ -30,6 +34,7 @@ export default function App() {
   // A simple function to update our state
   const handleButtonClick = () => {
     setCount(count + 1); 
+   
   };
 
   return (
